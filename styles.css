@@ -1,0 +1,121 @@
+/*
+ Load fonts
+*/
+@font-face {
+    font-family: Overpass;
+    src: url(assets/fonts/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+/*
+ BTE custom variables
+*/
+:root {
+    --bte-red: rgba(255,53,150,0.9);
+    --bte-green: #95CE63;
+    --bte-black: rgba(255,53,150,0);
+    --bte-transparent: rgba(118,250,85,0);
+    --bte-main-container-width: 1140px; 
+    --bte-header-height: 410px;
+    --bte-stage-height: 887px;
+    --bte-footer-height: 250px;
+    --bte-headline-green: #89C35B;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+
+#header {
+    height: var(--bte-header-height);
+    background: #000;
+    background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%);
+}
+
+h1 {
+    color: var(--bte-headline-green);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 37px;
+    color: #43142B;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+body {
+    font-family: Overpass;
+    margin: 0;
+    padding: 0;
+}
+
+#main-wrapper {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52,14,32,0.3) 100%);
+}
+#footer-wrapper {
+    
+}
+
+
+
+#main, #footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+
+#main {
+    height: var(--bte-stage-height);
+    /*background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%);*/
+}
+
+#footer {
+    height: var(--bte-footer-height);
+    background: #000;
+    background: radial-gradient(circle, #4A162F 0%, rgba(0,0,0,0.5) 100%);  
+}
+
+.box-wrapper {
+    flex: 0 0 300px;
+    margin-left: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.round-box {
+  /*flex-wrap: wrap;*/
+  width: 240px;
+  height: 240px;
+  /*background:#3E1026;*/
+  /*flex-grow: 1;*/
+ 
+  
+  border-radius: 15px;
+  background-color: #000000;
+  background: radial-gradient(circle, #4A162F 95%, rgba(0,0,0,0.5) 100%);
+  box-shadow: -2px 8px 12px 0 rgba(0,0,0,0.35);
+}
+
+.imprint {
+    height: 198px;
+    width: 414px;
+    margin-left: 170px;
+}
+
+.hightlight {
+    color: var(--bte-headline-green);
+}
