@@ -39,6 +39,7 @@
     height: var(--bte-header-height);
     background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
    /* background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%) ;*/
+   display: flex;
 }
 
 h1 {
@@ -154,6 +155,28 @@ body {
     color: var(--bte-headline-green);
 }
 
+.header-left {
+    width: 30%;
+}
+.claim {
+    width: 60%;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+
+.header-right {
+    width: 10%;
+    background: url("assets/svg/bte_bg_header_right.svg");
+} 
+
+.header-right img {
+    margin-top: 50%;
+}
+
 .inner-svg {
     align-items: center;
     align-content: center;
@@ -175,3 +198,15 @@ body {
     margin-left: 10%;
 
 }
+
+.box-wrapper p {
+    height: 200px;
+}
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
