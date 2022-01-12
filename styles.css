@@ -234,4 +234,9 @@ body {
     #footer {
         width: 100%;
     }
+
+    .box-wrapper p {
+        width: 500px;
+        height: auto;
+    }
   }
