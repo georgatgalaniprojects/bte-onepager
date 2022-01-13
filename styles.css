@@ -151,7 +151,8 @@ body {
   display: flex;
   border-radius: 15px;
   background-color: #000000;
-  background: radial-gradient(circle, #4A162F 95%, rgba(0,0,0,0.5) 100%);
+  /*background: radial-gradient(circle at top right, #4A162F 95%, rgba(0,0,0,0.5) 100%);*/
+  background: radial-gradient(circle at top right, #44142B 0%, #010000 100%);
   box-shadow: -2px 8px 12px 0 rgba(0,0,0,0.35);
 }
 
