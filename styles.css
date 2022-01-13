@@ -37,7 +37,7 @@
 
 
 .header-left {
-    background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
+    background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
     height: var(--bte-header-height);
     width: 432px;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .footer-left {
-    background: #000 url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;
+    background: url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;
     min-width: 449px;
     height: var(--bte-footer-height);
 }
