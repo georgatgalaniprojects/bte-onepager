@@ -182,18 +182,25 @@ body {
     width: 30%;
 }
 .claim {
-    width: 60%;
+    width: 70%;
     display: flex;
     
     justify-content: center;
     flex-direction: column;
     flex-flow: column wrap;
     align-content: flex-start;
+    background: top right url("assets/svg/bte_bg_header_right.svg") no-repeat;
+}
+
+.build-on-kilt-logo {
+    position: absolute;
+    right: 30px;
+    top: 30px;
 }
 
 .header-right {
-    width: 10%;
-    background: url("assets/svg/bte_bg_header_right.svg");
+   /* width: 10%;*/
+   /* background: url("assets/svg/bte_bg_header_right.svg");*/
 } 
 
 .header-right img {
