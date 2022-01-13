@@ -139,7 +139,7 @@ body {
 
 .footer-left {
     background: -10px url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;
-    min-width: 449px;
+    min-width: 582px;
     height: var(--bte-footer-height);
     margin-left: 10%;
 }
