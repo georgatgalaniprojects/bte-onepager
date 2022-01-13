@@ -40,6 +40,7 @@
     background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
     height: var(--bte-header-height);
     width: 432px;
+    margin-left: 8%;
 }
 
 #header {
@@ -80,6 +81,11 @@ p {
     line-height: 22px;
     font-weight: 200;
     font-family: OverpassExtraLight;
+    width: 70%;
+}
+
+.claim h1, .sub-headline {
+    margin-left: 20px;
 }
 
 body {
@@ -132,12 +138,11 @@ body {
 }
 
 .footer-left {
-    background: url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;
+    background: -10px url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;
     min-width: 449px;
     height: var(--bte-footer-height);
+    margin-left: 10%;
 }
-
-
 
 .footer-middle {
     flex: auto;
@@ -181,6 +186,7 @@ body {
 .header-left {
     width: 30%;
 }
+
 .claim {
     width: 70%;
     display: flex;
@@ -194,7 +200,7 @@ body {
 
 .build-on-kilt-logo {
     position: absolute;
-    right: 30px;
+    right: 20%;
     top: 30px;
 }
 
