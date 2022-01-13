@@ -1,5 +1,5 @@
 /*
- Load fonts
+ Fontloading 
 */
 /*@font-face {
     font-family: Overpass;
@@ -35,9 +35,16 @@
     
 }
 
+
+.header-left {
+    background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
+    height: var(--bte-header-height);
+    width: 432px;
+}
+
 #header {
     height: var(--bte-header-height);
-    background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
+  /*  background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;*/
    /* background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%) ;*/
    display: flex;
 }
@@ -92,7 +99,9 @@ body {
 
 #header-wrapper {
     /*background: #000;*/
-    background: radial-gradient(circle, #46142C 0%, #000000 100%);
+    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+    /*background: radial-gradient(circle, #370F22 0%, #000000 100%);*/
+
 
 }
 
