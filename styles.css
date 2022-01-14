@@ -24,18 +24,15 @@
     --bte-stage-height: 887px;
     --bte-footer-height: 337px;
     --bte-headline-green: #89C35B;
-
 }
 
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: left;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
-
-
+ 
 .header-left {
     background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
     height: var(--bte-header-height);
@@ -56,7 +53,6 @@ h1 {
     font-weight: 200;
     letter-spacing: 0;
     line-height: 74px;
-    
 }
 
 h3 {
@@ -96,7 +92,7 @@ body {
 }
 
 #main-wrapper {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52,14,32,0.3) 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52,14,32,0.3) 100%) no-repeat;
 }
 #footer-wrapper {
    /* background: #000;*/
@@ -109,8 +105,6 @@ body {
     /*background: #000;*/
     background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
     /*background: radial-gradient(circle, #370F22 0%, #000000 100%);*/
-
-
 }
 
 #main, #footer, #header {
@@ -174,8 +168,7 @@ body {
 
 .imprint {
     height: 198px;
-    width: 414px;
-    
+    width: 414px;    
     color: #FFCFE6;
 }
 
@@ -189,8 +182,7 @@ body {
 
 .claim {
     width: 70%;
-    display: flex;
-    
+    display: flex; 
     justify-content: center;
     flex-direction: column;
     flex-flow: column wrap;
@@ -200,7 +192,7 @@ body {
 
 .build-on-kilt-logo {
     position: absolute;
-    right: 20%;
+    right: 30px;
     top: 30px;
 }
 
@@ -227,6 +219,11 @@ body {
     width: 80%;
     display: flex;
     margin-bottom: 5%;
+    
+}
+
+.img-container h3 {
+    margin-top: 0;
 }
 
 .text-area {
@@ -246,7 +243,9 @@ body {
     width: 70%;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* 
+    Responsive layout - makes a one column layout instead of a two-column layout 
+*/
 @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
