@@ -34,7 +34,7 @@
 }
  
 .header-left {
-    background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;
+    background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat 30px 0;
     height: var(--bte-header-height);
     width: 432px;
     margin-left: 8%;
