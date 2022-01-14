@@ -38,6 +38,8 @@
     height: var(--bte-header-height);
     width: 432px;
     margin-left: 8%;
+
+    width: 39%;
 }
 
 #header {
@@ -77,11 +79,11 @@ p {
     line-height: 22px;
     font-weight: 200;
     font-family: OverpassExtraLight;
-    width: 70%;
+    width: 75%;
 }
 
 .claim h1, .sub-headline {
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
 
 body {
@@ -176,12 +178,8 @@ body {
     color: var(--bte-headline-green);
 }
 
-.header-left {
-    width: 30%;
-}
-
 .claim {
-    margin-left: 80px;
+    /*margin-left: 80px;*/
     width: 70%;
     display: flex; 
     justify-content: center;
@@ -278,3 +276,35 @@ body {
         height: auto;
     }
   }
+
+  /*
+    animation
+  */ 
+.round-box, .inner-svg {
+    transition: .5s;
+}
+
+  .round-box:before {
+    border-radius:50%;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+
+  .round-box:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #f3496f;
+    filter: blur(3px);
+  }
+
+  .round-box:hover {
+    /*box-shadow: -2px 8px 12px #f3496f; */
+    box-shadow: 15px -8px 12px #f3496f;
+  }
+
+  /*.round-box:hover .inner-svg {
+    filter: invert(44%) sepia(54%) saturate(6800%) hue-rotate(312deg) brightness(103%) contrast(101%);
+  }*/
+
+
+  
