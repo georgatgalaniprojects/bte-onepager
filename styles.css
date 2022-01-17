@@ -46,6 +46,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: OverpassExtraLight;
+    background: #fff;
 }
 
 .flex-container {
