@@ -247,6 +247,37 @@ p {
 }
 
 /*
+    hover effects
+*/
+
+.round-box.stakeboard:hover {
+    background-image: url(assets/svg/bte_hover_Stakeboard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.round-box.skyc:hover {
+    background-image: url(assets/svg/bte_hover_socialKYC.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.round-box.sporran:hover {
+    background-image: url(assets/svg/bte_hover_Sporran.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.round-box.stakeboard:hover img,
+.round-box.sporran:hover img,
+.round-box.skyc:hover img {
+    display: none;
+}
+
+
+/*
     Tweaks
 */
 .stakeboard img {
@@ -287,6 +318,8 @@ p {
 /*
     animation
 */
+
+/*
 .round-box,
 .inner-svg {
     transition: .5s;
@@ -306,10 +339,10 @@ p {
 }
 
 .round-box:hover {
-    /*box-shadow: -2px 8px 12px #f3496f; */
+    
     box-shadow: 15px -8px 12px #f3496f;
 }
-
+*/
 /*.round-box:hover .inner-svg {
     filter: invert(44%) sepia(54%) saturate(6800%) hue-rotate(312deg) brightness(103%) contrast(101%);
   }*/
