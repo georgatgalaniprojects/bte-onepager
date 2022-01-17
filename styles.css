@@ -1,6 +1,13 @@
 /*
+    styles.css
+
+    Style definition for B.T.E. (01/2022)
+*/
+
+/*
  Fontloading 
 */
+
 /*@font-face {
     font-family: Overpass;
     src: url(assets/fonts/Overpass/Overpass-VariableFont_wght.ttf);
@@ -9,45 +16,61 @@
     font-family: OverpassExtraLight;
     src: url(assets/fonts/Overpass/static/Overpass-ExtraLight.ttf);
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
 
 /*
  BTE custom variables
 */
 :root {
-    --bte-red: rgba(255,53,150,0.9);
+    /* colors */
+    --bte-red: rgba(255, 53, 150, 0.9);
     --bte-green: #95CE63;
-    --bte-black: rgba(255,53,150,0);
-    --bte-transparent: rgba(118,250,85,0);
-    --bte-main-container-width: 1140px; 
+    --bte-headline-green: #89C35B;
+    --bte-black: rgba(255, 53, 150, 0);
+    --bte-transparent: rgba(118, 250, 85, 0);
+
+    /* dimensions */
+    --bte-main-container-width: 1140px;
     --bte-header-height: 410px;
     --bte-stage-height: 887px;
     --bte-footer-height: 337px;
-    --bte-headline-green: #89C35B;
+
+    /* images */
+
+    /* fonts*/
+}
+
+/* Resets */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: OverpassExtraLight;
 }
 
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: left;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
- 
+
 .header-left {
-    background:  url("assets/svg/bte_header_bte_logo_left.svg") no-repeat 30px 0;
+    background: url("assets/svg/bte_header_bte_logo_left.svg") no-repeat 30px 0;
     height: var(--bte-header-height);
     width: 432px;
     margin-left: 8%;
-
     width: 39%;
 }
 
 #header {
     height: var(--bte-header-height);
-  /*  background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;*/
-   /* background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%) ;*/
-   display: flex;
+    /*  background: #000 url("assets/svg/bte_header_bte_logo_left.svg") no-repeat;*/
+    /* background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%) ;*/
+    display: flex;
 }
+
+/* Typographics */
 
 h1 {
     color: var(--bte-headline-green);
@@ -82,41 +105,30 @@ p {
     width: 75%;
 }
 
-.claim h1, .sub-headline {
+.claim h1,
+.sub-headline {
     /*margin-left: 20px;*/
 }
 
-body {
-    /*font-family: Overpass;*/
-    margin: 0;
-    padding: 0;
-    font-family: OverpassExtraLight;
-}
-
 #main-wrapper {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52,14,32,0.3) 100%) no-repeat;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52, 14, 32, 0.3) 100%) no-repeat;
 }
+
+#header-wrapper,
 #footer-wrapper {
-   /* background: #000;*/
     background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
-
-   /* background: radial-gradient(circle, #4A162F 0%, rgba(0,0,0,0.5) 100%);  */
 }
 
-#header-wrapper {
-    /*background: #000;*/
-    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
-    /*background: radial-gradient(circle, #370F22 0%, #000000 100%);*/
-}
-
-#main, #footer, #header {
+#main,
+#footer,
+#header {
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
 }
 
 #main {
-   /* height: var(--bte-stage-height);*/
+    /* height: var(--bte-stage-height);*/
     /*background: radial-gradient(circle, #3E1026 0%, rgba(0,0,0,0.5) 100%);*/
     margin-top: 5%;
     /*margin-bottom: 5%;*/
@@ -128,8 +140,8 @@ body {
     /*background: #000 url("assets/svg/bte_bg-pic_footer_left.svg") no-repeat;*/
 }
 
-
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
     width: 20%;
 }
 
@@ -154,23 +166,21 @@ body {
 }
 
 .round-box {
-  /*flex-wrap: wrap;*/
-  width: 240px;
-  height: 240px;
-  /*background:#3E1026;*/
-  /*flex-grow: 1;*/
- 
-  display: flex;
-  border-radius: 15px;
-  background-color: #000000;
-  /*background: radial-gradient(circle at top right, #4A162F 95%, rgba(0,0,0,0.5) 100%);*/
-  background: radial-gradient(circle at top right, #44142B 0%, #010000 100%);
-  box-shadow: -2px 8px 12px 0 rgba(0,0,0,0.35);
+    /*flex-wrap: wrap;*/
+    width: 240px;
+    height: 240px;
+    /*background:#3E1026;*/
+    /*flex-grow: 1;*/
+    display: flex;
+    border-radius: 15px;
+    background-color: #000000;
+    background: radial-gradient(circle at top right, #44142B 0%, #010000 100%);
+    box-shadow: -2px 8px 12px 0 rgba(0, 0, 0, 0.35);
 }
 
 .imprint {
     height: 198px;
-    width: 414px;    
+    width: 414px;
     color: #FFCFE6;
 }
 
@@ -179,9 +189,8 @@ body {
 }
 
 .claim {
-    /*margin-left: 80px;*/
     width: 70%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-direction: column;
     flex-flow: column wrap;
@@ -200,9 +209,9 @@ body {
 }
 
 .header-right {
-   /* width: 10%;*/
-   /* background: url("assets/svg/bte_bg_header_right.svg");*/
-} 
+    /* width: 10%;*/
+    /* background: url("assets/svg/bte_bg_header_right.svg");*/
+}
 
 .header-right img {
     margin-top: 50%;
@@ -222,7 +231,6 @@ body {
     width: 80%;
     display: flex;
     margin-bottom: 5%;
-    
 }
 
 .img-container h3 {
@@ -232,7 +240,6 @@ body {
 .text-area {
     width: 66%;
     margin-left: 10%;
-
 }
 
 .box-wrapper p {
@@ -251,7 +258,7 @@ body {
 */
 @media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     #main {
@@ -275,36 +282,34 @@ body {
         width: 500px;
         height: auto;
     }
-  }
+}
 
-  /*
+/*
     animation
-  */ 
-.round-box, .inner-svg {
+*/
+.round-box,
+.inner-svg {
     transition: .5s;
 }
 
-  .round-box:before {
-    border-radius:50%;
+.round-box:before {
+    border-radius: 50%;
     transition: .5s;
     transform: scale(.9);
     z-index: -1;
-  }
+}
 
-  .round-box:hover:before {
+.round-box:hover:before {
     transform: scale(1.2);
     box-shadow: 0 0 15px #f3496f;
     filter: blur(3px);
-  }
+}
 
-  .round-box:hover {
+.round-box:hover {
     /*box-shadow: -2px 8px 12px #f3496f; */
     box-shadow: 15px -8px 12px #f3496f;
-  }
+}
 
-  /*.round-box:hover .inner-svg {
+/*.round-box:hover .inner-svg {
     filter: invert(44%) sepia(54%) saturate(6800%) hue-rotate(312deg) brightness(103%) contrast(101%);
   }*/
-
-
-  
