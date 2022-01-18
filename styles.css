@@ -299,6 +299,7 @@ p {
 
   #main {
     width: 100%;
+
   }
 
   .round-box {
@@ -354,6 +355,22 @@ p {
     margin-top: 3rem;
     flex-direction: column;
   }
+
+  #main,
+  #footer,
+  #header {
+    width: 800px;
+  }
+
+  .header-left {
+    width: 100%;
+  }
+
+  .claim {
+    width: 100%;
+    align-content: center;
+  }
+
 }
 
 /*
