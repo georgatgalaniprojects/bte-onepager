@@ -231,7 +231,8 @@ p {
   margin-right: auto;
   width: 80%;
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 .img-container h3 {
