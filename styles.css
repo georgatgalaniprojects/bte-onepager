@@ -336,6 +336,14 @@ p {
     background: none;
   }
 
+  #footer-wrapper {
+    background: none;
+  }
+
+  #footer {
+    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+  }
+
   #header {
     flex-wrap: wrap;
     background: radial-gradient(circle at top right, #46142C 0%, #000000 100%)
