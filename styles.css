@@ -292,7 +292,7 @@ p {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .flex-container {
     flex-direction: column;
   }
@@ -306,12 +306,12 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
-    height: 450px;
+    width: 286px;
+    height: 286px;
   }
 
   .round-box .inner-svg {
-    width: 250px;
+    width: 140px;
   }
 
   .img-container {
@@ -323,7 +323,7 @@ p {
   }
 
   .box-wrapper p {
-    width: 450px;
+    width: 286px;
     height: auto;
   }
 
@@ -362,14 +362,14 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
-    height: 450px;
+    width: 286px;
+    height: 286px;
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    width: 286px;
   }
 
   .img-container h3,
@@ -399,7 +399,7 @@ p {
   #main,
   #footer,
   #header {
-    width: 800px;
+    width: 400px;
   }
 
   #header {
@@ -407,7 +407,7 @@ p {
   }
 
   #header h1 {
-    font-size: 36px;
+    font-size: 21px;
     margin-bottom: 0;
   }
 
