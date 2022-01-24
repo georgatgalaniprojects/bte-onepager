@@ -325,6 +325,7 @@ p {
   .box-wrapper p {
     width: 286px;
     height: auto;
+    margin-bottom: 40px;
   }
 
   .box-wrapper {
@@ -342,7 +343,7 @@ p {
   }
 
   #main-wrapper {
-    margin-top: 8rem;
+    margin-top: 3rem;
     background: none;
   }
 
@@ -413,6 +414,7 @@ p {
 
   .header-left {
     width: 100%;
+    margin-left: 0;
   }
 
   .claim {
