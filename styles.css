@@ -310,7 +310,7 @@ p {
     height: 450px;
   }
 
-  .round-box.inner-svg {
+  .round-box .inner-svg {
     width: 250px;
   }
 
@@ -323,8 +323,12 @@ p {
   }
 
   .box-wrapper p {
-    width: 500px;
+    width: 450px;
     height: auto;
+  }
+
+  .box-wrapper {
+    margin-left: 0;
   }
 
   .claim {
@@ -358,7 +362,27 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
+    width: 450px;
+    height: 450px;
   }
+
+  .img-container .text-area {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+
+  .img-container h3,
+  h3 {
+    margin-top: 20px;
+  }
+
+
+
+  p {
+    margin-top: 0;
+  }
+
 
   .img-container {
     display: flex;
