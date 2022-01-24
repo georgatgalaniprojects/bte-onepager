@@ -310,6 +310,10 @@ p {
     height: 450px;
   }
 
+  .round-box.inner-svg {
+    width: 250px;
+  }
+
   .img-container {
     display: block;
   }
