@@ -303,9 +303,7 @@ p {
 
   #main {
     width: 100%;
-    position: relative;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(52, 14, 32, 0.3) 100%) no-repeat;
-
   }
 
   .round-box {
@@ -367,7 +365,8 @@ p {
 
   #header {
     flex-wrap: wrap;
-    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%)
+    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+    position: relative;
   }
 
   .img-container img {
