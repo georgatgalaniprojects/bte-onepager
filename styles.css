@@ -306,8 +306,8 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 
   .round-box .inner-svg {
@@ -323,7 +323,7 @@ p {
   }
 
   .box-wrapper p {
-    width: 300px;
+    width: 350px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -363,14 +363,14 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 350px;
   }
 
   .img-container h3,
