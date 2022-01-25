@@ -425,14 +425,28 @@ p {
     align-content: center;
   }
 
+  #footer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 450px;
+  }
+
+  .imprint {
+    margin-top: 20px;
+  }
+
+
   .footer-left {
     min-width: 50px;
     margin-left: 0;
   }
 
-  .footer-left,
   .footer-right {
-    width: auto;
+    width: 350px;
+  }
+
+  .footer-left {
+    width: 350px;
   }
 }
 
