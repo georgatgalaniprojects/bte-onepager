@@ -343,7 +343,7 @@ p {
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-    background: #000;
+    background: none;
   }
 
   .claim h1 {
@@ -431,7 +431,7 @@ p {
     width: var(--bte-mobile-main-width);
     margin-left: auto;
     margin-right: auto;
-    background: url(assets/svg/bte_header_bte_logo_left.svg) no-repeat 0px 0;
+    background: url(assets/svg/bte_header_bte_logo_left.svg) no-repeat 0 0;
   }
 
   .claim {
