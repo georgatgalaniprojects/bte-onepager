@@ -292,7 +292,7 @@ p {
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
   }
@@ -400,7 +400,7 @@ p {
   #main,
   #footer,
   #header {
-    width: 400px;
+    width: 600px;
   }
 
   #header {
@@ -422,6 +422,9 @@ p {
     align-content: center;
   }
 
+  .footer-left {
+    min-width: 50px;
+  }
 }
 
 /*
@@ -462,12 +465,10 @@ p {
              * (optional) define here the style definitions which should be applied on the slider container
              * e.g. width including further controls like arrows etc.
              */
-.slider {}
+/*.slider {}
 
 .frame {
-  /**
-									* (optional) wrapper width, specifies width of the slider frame.
-									*/
+  
   width: 880px;
 
   position: relative;
@@ -486,13 +487,11 @@ li {
   position: relative;
   display: inline-block;
 
-  /**
-									* (optional) if the content inside the slide element has a defined size.
-									*/
+
   width: 880px;
 }
 
-.slider li img {
+/*.slider li img {
   height: 200px;
   width: auto;
 }
@@ -520,7 +519,7 @@ li {
 }
 
 /* CUSTOM CSS STYLES FOR THE PEN AND THE SLIDER */
-.slider {
+/*.slider {
   position: relative;
   width: 980px;
   margin: 0 auto 20px;
@@ -555,7 +554,7 @@ li {
 
 
 /* DOT NAVIGATION*/
-.slider_navigation_dots {
+/*.slider_navigation_dots {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -579,4 +578,4 @@ li {
 .slider_navigation_dots li.active {
   background-color: #41ABE5;
   box-shadow: inset 2px 0px 2px -2px #333;
-}
+}*/
