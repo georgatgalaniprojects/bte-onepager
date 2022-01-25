@@ -306,8 +306,8 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
 
   .round-box .inner-svg {
@@ -335,6 +335,10 @@ p {
   .claim {
     margin-top: 1rem;
     margin-bottom: 2rem;
+    width: 450px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .claim h1 {
@@ -363,8 +367,8 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
   }
 
   .img-container .text-area {
@@ -385,6 +389,7 @@ p {
 
   .sub-headline {
     font-size: 21px;
+    width: 100;
   }
 
 
@@ -416,8 +421,11 @@ p {
   }
 
   .header-left {
-    width: 100%;
-    margin-left: 0;
+    /* width: 100%;
+    margin-left: 0;*/
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .claim {
@@ -433,6 +441,8 @@ p {
 
   .imprint {
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
