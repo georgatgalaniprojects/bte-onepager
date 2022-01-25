@@ -427,6 +427,12 @@ p {
 
   .footer-left {
     min-width: 50px;
+    margin-left: 0;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: auto;
   }
 }
 
