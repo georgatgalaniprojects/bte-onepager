@@ -306,8 +306,8 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 
   .round-box .inner-svg {
@@ -323,7 +323,7 @@ p {
   }
 
   .box-wrapper p {
-    width: 350px;
+    width: 400px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -363,14 +363,14 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 400px;
   }
 
   .img-container h3,
@@ -437,17 +437,17 @@ p {
 
 
   .footer-left {
-    width: 350px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .footer-right {
-    width: 350px;
+    width: 400px;
   }
 
   .footer-left {
-    width: 350px;
+    width: 400px;
   }
 }
 
