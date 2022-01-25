@@ -306,12 +306,12 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
   .round-box .inner-svg {
-    width: 200px;
+    width: 150px;
   }
 
   .img-container {
@@ -323,7 +323,7 @@ p {
   }
 
   .box-wrapper p {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -363,14 +363,14 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 300px;
   }
 
   .img-container h3,
