@@ -466,6 +466,12 @@ p {
   .footer-left {
     width: 400px;
   }
+
+  .build-on-kilt-logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
 }
 
 /*
