@@ -1,6 +1,6 @@
 # One Pager Webseite for B.T.E. 
 
-This a single page website for the B.T.E. project. 
+This is a single page website for the B.T.E. project. 
 It supports desktop and mobile / responsive view modes.
 
 So far this project does not use any Javascript and relies only on HTML and CSS.
