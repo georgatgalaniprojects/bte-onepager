@@ -38,7 +38,11 @@
 
   /* images */
 
-  /* fonts*/
+  /* fonts */
+
+  /* mobile */
+  --bte-mobile-main-width: 450px;
+
 }
 
 /* Resets */
@@ -306,8 +310,8 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
-    height: 450px;
+    width: var(--bte-mobile-main-width);
+    height: var(--bte-mobile-main-width);
   }
 
   .round-box .inner-svg {
@@ -323,7 +327,7 @@ p {
   }
 
   .box-wrapper p {
-    width: 400px;
+    width: var(--bte-mobile-main-width);
     height: auto;
     margin-bottom: 40px;
   }
@@ -335,10 +339,11 @@ p {
   .claim {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: 450px;
+    width: var(--bte-mobile-main-width);
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+    background: #000;
   }
 
   .claim h1 {
@@ -367,14 +372,14 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
-    height: 450px;
+    width: var(--bte-mobile-main-width);
+    height: var(--bte-mobile-main-width);
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: var(--bte-mobile-main-width);
   }
 
   .img-container h3,
@@ -423,9 +428,10 @@ p {
   .header-left {
     /* width: 100%;
     margin-left: 0;*/
-    width: 450px;
+    width: var(--bte-mobile-main-width);
     margin-left: auto;
     margin-right: auto;
+    background: url(assets/svg/bte_header_bte_logo_left.svg) no-repeat 0px 0;
   }
 
   .claim {
@@ -436,7 +442,7 @@ p {
   #footer {
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 450px;
+    height: var(--bte-mobile-main-width);
   }
 
   .imprint {
