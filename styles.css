@@ -297,6 +297,11 @@ p {
 
 
 @media (max-width: 700px) {
+
+  body {
+    width: 600px;
+  }
+
   .flex-container {
     flex-direction: column;
   }
@@ -368,9 +373,9 @@ p {
     background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
   }
 
-  #header-wrapper {
+  /*#header-wrapper {
     position: relative;
-  }
+  }*/
 
   .img-container img {
     margin-left: auto;
