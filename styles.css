@@ -298,9 +298,9 @@ p {
 
 @media (max-width: 700px) {
 
-  body {
+  /*body {
     width: 600px;
-  }
+  }*/
 
   .flex-container {
     flex-direction: column;
@@ -402,7 +402,7 @@ p {
 
   .sub-headline {
     font-size: 21px;
-    width: 100;
+    /*width: 100;*/
   }
 
 
@@ -421,7 +421,7 @@ p {
   #main,
   #footer,
   #header {
-    width: 600px;
+    width: 700px;
   }
 
   #header {
