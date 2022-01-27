@@ -100,6 +100,10 @@ p {
   line-height: 22px;
 }
 
+.link {
+  color: var(--bte-green);
+}
+
 .sub-headline {
   color: #fff;
   font-size: 14px;
@@ -191,6 +195,7 @@ p {
 
 .hightlight {
   color: var(--bte-headline-green);
+  display: block;
 }
 
 .claim {
@@ -319,7 +324,7 @@ p {
   }
 
   .round-box .inner-svg {
-    width: 150px;
+    width: 200px;
   }
 
   .img-container {
@@ -450,14 +455,14 @@ p {
   #footer {
     flex-direction: column;
     flex-wrap: nowrap;
-    height: var(--bte-mobile-main-width);
+    height: 500px;
   }
 
   .imprint {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: var(--bte-mobile-main-width);
+    width: 480px;
   }
 
 
@@ -468,7 +473,7 @@ p {
   }
 
   .footer-right {
-    width: 400px;
+    width: 480px;
   }
 
   .footer-left {
