@@ -242,10 +242,8 @@ p {
   margin-top: 3rem;
 }
 
-.main-image,
 .img-container img {
-  width: 640px;
-  height: 480px;
+  border-radius: 15px;
 }
 
 .img-container h3 {
@@ -393,12 +391,10 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 572px;
-    height: 572px;
+    width: 480px;
+    height: 480px;
     border-radius: 15px;
   }
-
-
 
   .img-container .text-area {
     margin-left: auto;
