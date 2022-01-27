@@ -389,6 +389,7 @@ p {
     margin-right: auto;
     width: 480px;
     height: var(--bte-mobile-main-width);
+    border-radius: 15px;
   }
 
   .img-container .text-area {
@@ -428,11 +429,6 @@ p {
     margin-bottom: 5rem;
     margin-top: 0;
     flex-direction: column;
-  }
-
-  .img-container img {
-    border-radius: 15px;
-
   }
 
   #main,
