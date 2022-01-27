@@ -430,6 +430,11 @@ p {
     flex-direction: column;
   }
 
+  .img-container img {
+    border-radius: 15px;
+
+  }
+
   #main,
   #footer,
   #header {
