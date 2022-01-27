@@ -327,6 +327,11 @@ p {
     width: 200px;
   }
 
+  .round-box .skyc,
+  .round-box .stakeboard {
+    width: 350px;
+  }
+
   .img-container {
     display: block;
   }
@@ -489,6 +494,8 @@ p {
     right: 10px;
     top: 10px;
   }
+
+
 }
 
 /*
