@@ -319,7 +319,7 @@ p {
   .round-box {
     margin-left: auto;
     margin-right: auto;
-    width: var(--bte-mobile-main-width);
+    width: 480px;
     height: var(--bte-mobile-main-width);
   }
 
@@ -336,7 +336,7 @@ p {
   }
 
   .box-wrapper p {
-    width: var(--bte-mobile-main-width);
+    width: 480px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -348,7 +348,6 @@ p {
   .claim {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: var(--bte-mobile-main-width);
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -385,14 +384,19 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: var(--bte-mobile-main-width);
+    width: 480px;
     height: var(--bte-mobile-main-width);
   }
 
   .img-container .text-area {
     margin-left: auto;
     margin-right: auto;
-    width: var(--bte-mobile-main-width);
+    width: 480px;
+  }
+
+  h3 {
+    font-size: 2.0rem;
+    margin-bottom: 10px;
   }
 
   .img-container h3,
@@ -448,7 +452,7 @@ p {
   }
 
   .claim {
-    width: 100%;
+    width: 530px;
     align-content: center;
   }
 
