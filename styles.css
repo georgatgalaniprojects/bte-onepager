@@ -311,7 +311,7 @@ p {
   }
 
   #main {
-    width: 100%;
+    /*width: 100%;*/
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(52, 14, 32, 0.3) 100%) no-repeat;
   }
 
@@ -434,7 +434,7 @@ p {
   #main,
   #footer,
   #header {
-    width: 700px;
+    width: 600px;
   }
 
   #header {
