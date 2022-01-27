@@ -242,6 +242,12 @@ p {
   margin-top: 3rem;
 }
 
+.main-image,
+.img-container img {
+  width: 640px;
+  height: 480px;
+}
+
 .img-container h3 {
   margin-top: 0;
 }
@@ -387,10 +393,12 @@ p {
   .img-container img {
     margin-left: auto;
     margin-right: auto;
-    width: 480px;
-    height: var(--bte-mobile-main-width);
+    width: 572px;
+    height: 572px;
     border-radius: 15px;
   }
+
+
 
   .img-container .text-area {
     margin-left: auto;
