@@ -24,9 +24,14 @@
 Preloading trick
 */
 body:after {
-  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  /* hide images */
   content:
-    url(assets/svg/bte_skyc_logo.svg) url(assets/svg/bte_stakeboard_logo.svg) url(assets/svg/bte_sporran_logo.svg);
+    url(assets/svg/bte_hover_Stakeboard.png) url(assets/svg/bte_hover_socialKYC.png) url(assets/svg/bte_hover_Sporran.png);
 }
 
 /*
@@ -274,10 +279,6 @@ p {
 /*
     hover effects
 */
-.round-box.stakeboard:hover:after {
-  content: url(assets/svg/bte_hover_Stakeboard.png);
-  display: none
-}
 
 .round-box.stakeboard:hover {
   background-image: url(assets/svg/bte_hover_Stakeboard.png);
