@@ -282,21 +282,21 @@ p {
 
 .round-box.stakeboard:hover {
   background-image: url(assets/svg/bte_hover_Stakeboard.png);
-  background-size: contain;
+  /*background-size: contain;*/
   background-repeat: no-repeat;
 }
 
 
 .round-box.skyc:hover {
   background-image: url(assets/svg/bte_hover_socialKYC.png);
-  background-size: contain;
+  /*background-size: contain;*/
   background-repeat: no-repeat;
 }
 
 
 .round-box.sporran:hover {
   background-image: url(assets/svg/bte_hover_Sporran.png);
-  background-size: contain;
+  /* background-size: contain;*/
   background-repeat: no-repeat;
 }
 
