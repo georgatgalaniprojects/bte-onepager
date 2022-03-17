@@ -300,7 +300,24 @@ p {
   background-repeat: no-repeat;
 }
 
+.round-box.didsign:hover {
+  background-image: url(assets/img/bte_didsign_screen_hover_v2.png);
+  /* background-size: contain;*/
+  background-repeat: no-repeat;
+}
+
+.round-box.coming-soon:hover {
+  background-image: url(assets/img/coming\ soon_hover@2x.png );
+  /* background-size: contain;*/
+  background-repeat: no-repeat;
+  background-size: 240px 240px;
+
+}
+
+
 .round-box.stakeboard:hover img,
+.round-box.coming-soon:hover img,
+.round-box.didsign:hover img,
 .round-box.sporran:hover img,
 .round-box.skyc:hover img {
   display: none;
@@ -363,6 +380,7 @@ p {
     width: 480px;
     height: auto;
     margin-bottom: 40px;
+    line-height: 28px;
   }
 
   .box-wrapper {
@@ -417,6 +435,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 480px;
+  }
+
+  .img-container .text-area p {
+    line-height: 25px;
   }
 
   h3 {
