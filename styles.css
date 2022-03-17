@@ -280,39 +280,37 @@ p {
     hover effects
 */
 
-.round-box.stakeboard:hover {
-  background-image: url(assets/svg/bte_hover_Stakeboard.png);
-  /*background-size: contain;*/
+
+.round-box.stakeboard:hover,
+.round-box.skyc:hover,
+.round-box.sporran:hover,
+.round-box.didsign:hover,
+.round-box.coming-soon:hover {
   background-repeat: no-repeat;
+  background-size: 240px 240px;
+  /*background-size: contain;*/
 }
 
+.round-box.stakeboard:hover {
+  background-image: url(assets/svg/bte_hover_Stakeboard.png);
+}
 
 .round-box.skyc:hover {
   background-image: url(assets/svg/bte_hover_socialKYC.png);
-  /*background-size: contain;*/
-  background-repeat: no-repeat;
 }
-
 
 .round-box.sporran:hover {
   background-image: url(assets/svg/bte_hover_Sporran.png);
-  /* background-size: contain;*/
-  background-repeat: no-repeat;
 }
 
 .round-box.didsign:hover {
   background-image: url(assets/img/bte_didsign_screen_hover_v2.png);
-  /* background-size: contain;*/
-  background-repeat: no-repeat;
 }
 
 .round-box.coming-soon:hover {
   background-image: url(assets/img/coming\ soon_hover@2x.png );
-  /* background-size: contain;*/
-  background-repeat: no-repeat;
-  background-size: 240px 240px;
+  background-color: #000;
 }
-
 
 .round-box.stakeboard:hover img,
 .round-box.coming-soon:hover img,
