@@ -231,6 +231,8 @@ p {
   position: absolute;
   right: 30px;
   top: 30px;
+  width: 110px;
+  height: 50px;
 }
 
 .header-right {
@@ -535,6 +537,7 @@ p {
     position: absolute;
     right: 10px;
     top: 10px;
+
   }
 
 
