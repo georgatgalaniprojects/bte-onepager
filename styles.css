@@ -362,6 +362,10 @@ p {
     width: 200px;
   }
 
+  .round-box .inner-svg.coming-soon {
+    width: 100%;
+  }
+
   .round-box .skyc,
   .round-box .stakeboard {
     width: 350px;
