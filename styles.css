@@ -16,9 +16,7 @@
   src: url(assets/fonts/Overpass/static/Overpass-ExtraLight.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap");
 
 /*
 Preloading trick
@@ -30,8 +28,9 @@ body:after {
   overflow: hidden;
   z-index: -1;
   /* hide images */
-  content:
-    url(assets/svg/bte_hover_Stakeboard.png) url(assets/svg/bte_hover_socialKYC.png) url(assets/svg/bte_hover_Sporran.png);
+  content: url(assets/svg/bte_hover_Stakeboard.png)
+    url(assets/svg/bte_hover_socialKYC.png)
+    url(assets/svg/bte_hover_Sporran.png);
 }
 
 /*
@@ -40,8 +39,8 @@ body:after {
 :root {
   /* colors */
   --bte-red: rgba(255, 53, 150, 0.9);
-  --bte-green: #95CE63;
-  --bte-headline-green: #89C35B;
+  --bte-green: #95ce63;
+  --bte-headline-green: #89c35b;
   --bte-black: rgba(255, 53, 150, 0);
   --bte-transparent: rgba(118, 250, 85, 0);
 
@@ -58,7 +57,6 @@ body:after {
 
   /* mobile */
   --bte-mobile-main-width: 450px;
-
 }
 
 /* Resets */
@@ -105,7 +103,7 @@ h3 {
   font-weight: 300;
   letter-spacing: 0;
   line-height: 37px;
-  color: #43142B;
+  color: #43142b;
   margin-bottom: 0px;
 }
 
@@ -135,12 +133,13 @@ p {
 }
 
 #main-wrapper {
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(52, 14, 32, 0.3) 100%) no-repeat;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(52, 14, 32, 0.3) 100%)
+    no-repeat;
 }
 
 #header-wrapper,
 #footer-wrapper {
-  background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+  background: radial-gradient(circle at top right, #46142c 0%, #000000 100%);
 }
 
 #main,
@@ -198,14 +197,14 @@ p {
   display: flex;
   border-radius: 15px;
   background-color: #000000;
-  background: radial-gradient(circle at top right, #44142B 0%, #010000 100%);
+  background: radial-gradient(circle at top right, #44142b 0%, #010000 100%);
   box-shadow: -2px 8px 12px 0 rgba(0, 0, 0, 0.35);
 }
 
 .imprint {
   height: 198px;
   width: 414px;
-  color: #FFCFE6;
+  color: #ffcfe6;
 }
 
 .hightlight {
@@ -282,11 +281,11 @@ p {
     hover effects
 */
 
-
 .round-box.stakeboard:hover,
 .round-box.skyc:hover,
 .round-box.sporran:hover,
 .round-box.didsign:hover,
+.round-box.w3n,
 .round-box.coming-soon:hover {
   background-repeat: no-repeat;
   background-size: 240px 240px;
@@ -310,7 +309,12 @@ p {
 }
 
 .round-box.coming-soon:hover {
-  background-image: url(assets/img/coming\ soon_hover@2x.png );
+  background-image: url(assets/img/coming_soon_hover@2x.png);
+  background-color: #000;
+}
+
+.round-box.w3n:hover {
+  background-image: url(assets/img/bte_w3n_screen_hover.png);
   background-color: #000;
 }
 
@@ -318,10 +322,10 @@ p {
 .round-box.coming-soon:hover img,
 .round-box.didsign:hover img,
 .round-box.sporran:hover img,
-.round-box.skyc:hover img {
+.round-box.skyc:hover img,
+.round-box.w3n:hover img {
   display: none;
 }
-
 
 /*
     Tweaks
@@ -334,10 +338,7 @@ p {
     Responsive layout - makes a one column layout instead of a two-column layout 
 */
 
-
-
 @media (max-width: 700px) {
-
   /*body {
     width: 600px;
   }*/
@@ -348,7 +349,8 @@ p {
 
   #main {
     /*width: 100%;*/
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(52, 14, 32, 0.3) 100%) no-repeat;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(52, 14, 32, 0.3) 100%)
+      no-repeat;
   }
 
   .round-box {
@@ -414,12 +416,12 @@ p {
   }
 
   #footer {
-    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+    background: radial-gradient(circle at top right, #46142c 0%, #000000 100%);
   }
 
   #header {
     flex-wrap: wrap;
-    background: radial-gradient(circle at top right, #46142C 0%, #000000 100%);
+    background: radial-gradient(circle at top right, #46142c 0%, #000000 100%);
   }
 
   /*#header-wrapper {
@@ -445,7 +447,7 @@ p {
   }
 
   h3 {
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-bottom: 10px;
   }
 
@@ -463,7 +465,6 @@ p {
     font-size: 21px;
     /*width: 100;*/
   }
-
 
   .img-container {
     display: flex;
@@ -502,7 +503,6 @@ p {
     background: url(assets/svg/bte_header_bte_logo_left.svg) no-repeat 0 0;
   }
 
-
   .claim {
     width: 530px;
     align-content: center;
@@ -520,7 +520,6 @@ p {
     margin-right: auto;
     width: 480px;
   }
-
 
   .footer-left {
     width: 400px;
@@ -541,15 +540,11 @@ p {
     position: absolute;
     right: 10px;
     top: 10px;
-
   }
-
 
   #footer-wrapper {
     background: #000;
   }
-
-
 }
 
 /*
@@ -583,8 +578,6 @@ p {
 /*.round-box:hover .inner-svg {
     filter: invert(44%) sepia(54%) saturate(6800%) hue-rotate(312deg) brightness(103%) contrast(101%);
   }*/
-
-
 
 /**
              * (optional) define here the style definitions which should be applied on the slider container
